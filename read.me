@@ -1,0 +1,24 @@
+npm install
+
+npm run simpleAuth
+
+Open requests.rests 
+
+POST http://localhost:2000/login
+
+Copy token (without quotes)
+
+In following line paste token directly after 'Bearer' like so:
+
+GET http://localhost:2000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjUzMTk1NDI4fQ.p-6tLmkyKxnlk_wEHFLfujTxrB4O0ro0PNWzQOO1ZnM
+
+GET http://localhost:2000/posts
+
+Illustrates how to:
+Create jsonwebtoken
+
+Authenticate Token (which includes):
+    Retrieve jsonwebtoken
+    Verify that token is valid.
+    Use next to allow middleware to continue onto execution of code in route. 
