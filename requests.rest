@@ -10,7 +10,7 @@ Content-Type: application/json
 ###
 
 GET http://localhost:2000/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjUzMTk2MTc1fQ.tDwdourGJTwI9XrcRNQznXCdStqaYI-bJrPFyCZwNzc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwicm9sZXMiOiJhZG1pbiIsImlhdCI6MTY1MzE5Njc0NH0.42MildCcRpNW7y6uIx2aVxdhl2rdraTInrguOGHfqbU
 
 ###
 

@@ -29,6 +29,7 @@ app.get('/posts', authenticateToken, (req, res) => {
 app.post('/login', (req, res) => {
     const username = req.body.username
     const user = { name: username }
+    user.roles = 'admin'  //just demoing you can add what u want here
     const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET)
     res.json({ accessToken: accessToken })
 })
